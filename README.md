@@ -96,11 +96,12 @@ Inserte a continuación una captura de pantalla que muestre el resultado de ejec
 #### Código desarrollado
 A continuació es mostra la captura de pantalla amb el resultat de l'execució del fitxer primos.py utilitzant l'opció verbosa (-v), on es verifica que els 7 tests obligatoris han passat amb èxit.
 
-![Tests.png](attachment:c97f31dc-eaea-41c4-b06b-3f98fbdc9551.png)
+![Resultat dels tests](Tests.png)
 
 Inserte a continuación el contenido del fichero `primos.py` usando los comandos necesarios para que se realice el
 realce sintáctico en Python del mismo.
 
+``` python
 """
 Sara Lario Garrido
 
@@ -227,6 +228,7 @@ def mcm(*numeros):
 if __name__ == "__main__":
     import doctest
     doctest.testmod(verbose=True)
+    ```
 
 #### Subida del resultado al repositorio GitHub ¿y *pull-request*?
 
