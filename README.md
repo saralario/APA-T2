@@ -228,7 +228,8 @@ def mcm(*numeros):
 if __name__ == "__main__":
     import doctest
     doctest.testmod(verbose=True)
-    ```
+
+  ```
 
 #### Subida del resultado al repositorio GitHub ¿y *pull-request*?
 
